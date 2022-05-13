@@ -5,6 +5,7 @@
     --text-gray: #4a4a4a;
     --color-primary: #4043c0;
     --white: #fff;
+    --star-yellow: #ffbb3a
 }
 * {
     margin: o;
@@ -84,6 +85,25 @@ border-radius: 0 0 8px 8px;
    font-size: 14px;
    font-weight: 700;
     margin-bottom: 25px;
+}
+.dsmovie-card-description-botton {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.dsmovie-card-description-botton h4{
+font-size: 16px;
+font-weight: 700;
+color: var(--star-yellow);
+}
+.dsmovie-card-description-botton img {
+width: 22px;
+}
+.dsmovie-card-description-botton p {
+font-size: 12px;
+font-weight: 400;
+color: var(--text-gray);
+margin-bottom: 10px;
 }
 
 .dsmovie-btn, .dsmovie-btn:hover {
